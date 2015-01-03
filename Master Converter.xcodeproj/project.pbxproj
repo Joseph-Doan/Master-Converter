@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D4232C41A57B76500FE89ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4232C31A57B76500FE89ED /* main.m */; };
+		6D4232C71A57B76500FE89ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4232C61A57B76500FE89ED /* AppDelegate.m */; };
+		6D4232CA1A57B76500FE89ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4232C91A57B76500FE89ED /* ViewController.m */; };
+		6D4232CD1A57B76500FE89ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4232CB1A57B76500FE89ED /* Main.storyboard */; };
+		6D4232CF1A57B76500FE89ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4232CE1A57B76500FE89ED /* Images.xcassets */; };
+		6D4232D21A57B76500FE89ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4232D01A57B76500FE89ED /* LaunchScreen.xib */; };
+		6D4232DE1A57B76500FE89ED /* Master_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4232DD1A57B76500FE89ED /* Master_ConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D4232D81A57B76500FE89ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D4232B61A57B76500FE89ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D4232BD1A57B76500FE89ED;
+			remoteInfo = "Master Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D4232BE1A57B76500FE89ED /* Master Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Master Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4232C21A57B76500FE89ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4232C31A57B76500FE89ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D4232C51A57B76500FE89ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D4232C61A57B76500FE89ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D4232C81A57B76500FE89ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D4232C91A57B76500FE89ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D4232CC1A57B76500FE89ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D4232CE1A57B76500FE89ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D4232D11A57B76500FE89ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6D4232D71A57B76500FE89ED /* Master ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Master ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4232DC1A57B76500FE89ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4232DD1A57B76500FE89ED /* Master_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Master_ConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D4232BB1A57B76500FE89ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4232D41A57B76500FE89ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D4232B51A57B76500FE89ED = {
+			isa = PBXGroup;
+			children = (
+				6D4232C01A57B76500FE89ED /* Master Converter */,
+				6D4232DA1A57B76500FE89ED /* Master ConverterTests */,
+				6D4232BF1A57B76500FE89ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D4232BF1A57B76500FE89ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D4232BE1A57B76500FE89ED /* Master Converter.app */,
+				6D4232D71A57B76500FE89ED /* Master ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D4232C01A57B76500FE89ED /* Master Converter */ = {
+			isa = PBXGroup;
+			children = (
+				6D4232C51A57B76500FE89ED /* AppDelegate.h */,
+				6D4232C61A57B76500FE89ED /* AppDelegate.m */,
+				6D4232C81A57B76500FE89ED /* ViewController.h */,
+				6D4232C91A57B76500FE89ED /* ViewController.m */,
+				6D4232CB1A57B76500FE89ED /* Main.storyboard */,
+				6D4232CE1A57B76500FE89ED /* Images.xcassets */,
+				6D4232D01A57B76500FE89ED /* LaunchScreen.xib */,
+				6D4232C11A57B76500FE89ED /* Supporting Files */,
+			);
+			path = "Master Converter";
+			sourceTree = "<group>";
+		};
+		6D4232C11A57B76500FE89ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D4232C21A57B76500FE89ED /* Info.plist */,
+				6D4232C31A57B76500FE89ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D4232DA1A57B76500FE89ED /* Master ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D4232DD1A57B76500FE89ED /* Master_ConverterTests.m */,
+				6D4232DB1A57B76500FE89ED /* Supporting Files */,
+			);
+			path = "Master ConverterTests";
+			sourceTree = "<group>";
+		};
+		6D4232DB1A57B76500FE89ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D4232DC1A57B76500FE89ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D4232BD1A57B76500FE89ED /* Master Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4232E11A57B76500FE89ED /* Build configuration list for PBXNativeTarget "Master Converter" */;
+			buildPhases = (
+				6D4232BA1A57B76500FE89ED /* Sources */,
+				6D4232BB1A57B76500FE89ED /* Frameworks */,
+				6D4232BC1A57B76500FE89ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Master Converter";
+			productName = "Master Converter";
+			productReference = 6D4232BE1A57B76500FE89ED /* Master Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D4232D61A57B76500FE89ED /* Master ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4232E41A57B76500FE89ED /* Build configuration list for PBXNativeTarget "Master ConverterTests" */;
+			buildPhases = (
+				6D4232D31A57B76500FE89ED /* Sources */,
+				6D4232D41A57B76500FE89ED /* Frameworks */,
+				6D4232D51A57B76500FE89ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D4232D91A57B76500FE89ED /* PBXTargetDependency */,
+			);
+			name = "Master ConverterTests";
+			productName = "Master ConverterTests";
+			productReference = 6D4232D71A57B76500FE89ED /* Master ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D4232B61A57B76500FE89ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Joseph Doan";
+				TargetAttributes = {
+					6D4232BD1A57B76500FE89ED = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6D4232D61A57B76500FE89ED = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6D4232BD1A57B76500FE89ED;
+					};
+				};
+			};
+			buildConfigurationList = 6D4232B91A57B76500FE89ED /* Build configuration list for PBXProject "Master Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D4232B51A57B76500FE89ED;
+			productRefGroup = 6D4232BF1A57B76500FE89ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D4232BD1A57B76500FE89ED /* Master Converter */,
+				6D4232D61A57B76500FE89ED /* Master ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D4232BC1A57B76500FE89ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4232CD1A57B76500FE89ED /* Main.storyboard in Resources */,
+				6D4232D21A57B76500FE89ED /* LaunchScreen.xib in Resources */,
+				6D4232CF1A57B76500FE89ED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4232D51A57B76500FE89ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D4232BA1A57B76500FE89ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4232CA1A57B76500FE89ED /* ViewController.m in Sources */,
+				6D4232C71A57B76500FE89ED /* AppDelegate.m in Sources */,
+				6D4232C41A57B76500FE89ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4232D31A57B76500FE89ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4232DE1A57B76500FE89ED /* Master_ConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D4232D91A57B76500FE89ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D4232BD1A57B76500FE89ED /* Master Converter */;
+			targetProxy = 6D4232D81A57B76500FE89ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D4232CB1A57B76500FE89ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D4232CC1A57B76500FE89ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D4232D01A57B76500FE89ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D4232D11A57B76500FE89ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D4232DF1A57B76500FE89ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D4232E01A57B76500FE89ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D4232E21A57B76500FE89ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Master Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D4232E31A57B76500FE89ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Master Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D4232E51A57B76500FE89ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Master ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Master Converter.app/Master Converter";
+			};
+			name = Debug;
+		};
+		6D4232E61A57B76500FE89ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Master ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Master Converter.app/Master Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D4232B91A57B76500FE89ED /* Build configuration list for PBXProject "Master Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4232DF1A57B76500FE89ED /* Debug */,
+				6D4232E01A57B76500FE89ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D4232E11A57B76500FE89ED /* Build configuration list for PBXNativeTarget "Master Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4232E21A57B76500FE89ED /* Debug */,
+				6D4232E31A57B76500FE89ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D4232E41A57B76500FE89ED /* Build configuration list for PBXNativeTarget "Master ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4232E51A57B76500FE89ED /* Debug */,
+				6D4232E61A57B76500FE89ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D4232B61A57B76500FE89ED /* Project object */;
+}
