@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>409A8EED-83D5-4309-9E93-7CE93E99786B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Master Converter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B2E9FD4F2EB431D4FC1B00CAE46315445AA81F94</key>
+		<string>https://github.com/Joseph-Doan/Master-Converter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Master Converter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B2E9FD4F2EB431D4FC1B00CAE46315445AA81F94</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Joseph-Doan/Master-Converter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B2E9FD4F2EB431D4FC1B00CAE46315445AA81F94</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B2E9FD4F2EB431D4FC1B00CAE46315445AA81F94</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Master%20Converter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
