@@ -14,6 +14,7 @@
 		6D4232D21A57B76500FE89ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4232D01A57B76500FE89ED /* LaunchScreen.xib */; };
 		6D4232DE1A57B76500FE89ED /* Master_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4232DD1A57B76500FE89ED /* Master_ConverterTests.m */; };
 		6D4232E91A5F9A8000FE89ED /* MasterConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4232E81A5F9A8000FE89ED /* MasterConverterViewController.m */; };
+		6D4232EC1A68CD1300FE89ED /* ConverterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4232EB1A68CD1300FE89ED /* ConverterUnit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6D4232DD1A57B76500FE89ED /* Master_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Master_ConverterTests.m; sourceTree = "<group>"; };
 		6D4232E71A5F9A8000FE89ED /* MasterConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterConverterViewController.h; sourceTree = "<group>"; };
 		6D4232E81A5F9A8000FE89ED /* MasterConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterConverterViewController.m; sourceTree = "<group>"; };
+		6D4232EA1A68CD1300FE89ED /* ConverterUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterUnit.h; sourceTree = "<group>"; };
+		6D4232EB1A68CD1300FE89ED /* ConverterUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterUnit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				6D4232CE1A57B76500FE89ED /* Images.xcassets */,
 				6D4232D01A57B76500FE89ED /* LaunchScreen.xib */,
 				6D4232C11A57B76500FE89ED /* Supporting Files */,
+				6D4232EA1A68CD1300FE89ED /* ConverterUnit.h */,
+				6D4232EB1A68CD1300FE89ED /* ConverterUnit.m */,
 			);
 			path = "Master Converter";
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				6D4232C71A57B76500FE89ED /* AppDelegate.m in Sources */,
 				6D4232C41A57B76500FE89ED /* main.m in Sources */,
+				6D4232EC1A68CD1300FE89ED /* ConverterUnit.m in Sources */,
 				6D4232E91A5F9A8000FE89ED /* MasterConverterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				6D4232E31A57B76500FE89ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D4232E41A57B76500FE89ED /* Build configuration list for PBXNativeTarget "Master ConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				6D4232E61A57B76500FE89ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

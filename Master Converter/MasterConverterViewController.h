@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterConverterViewController : UIViewController
+@interface MasterConverterViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate>
+
+@property (strong, nonatomic) IBOutlet UITextField *numberTextField;
+
+@property (strong, nonatomic) IBOutlet UITextField *categoryMenuTextField;
+
+@property (strong, nonatomic) IBOutlet UIPickerView *subCategoryPickerView;
+
+@property (strong, nonatomic) IBOutlet UITableView *resultTableView;
+
+
+- (IBAction)enterButtonPressed:(id)sender;
 
 @end
